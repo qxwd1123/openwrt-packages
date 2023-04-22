@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=Text-CSV_XS-$(PKG_VERSION).tgz
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/H/HM/HMBRAND
 PKG_HASH:=ba3231610fc755a69e14eb4a3c6d8cce46cc4fd32853777a6c9ce485a8878b42
-PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Text-CSV_XS-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Philip Prindeville <philipp@redfish-solutions.com>
 PKG_LICENSE:=GPL-1.0-or-later Artistic-1.0-Perl

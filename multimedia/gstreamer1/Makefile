@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=gstreamer-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=https://gstreamer.freedesktop.org/src/gstreamer
 PKG_HASH:=52c93bc48e03533aa676fd8c15eb6b5fc326c68db311c50bcc0a865f31a6c653
-PKG_BUILD_DIR:=$(BUILD_DIR)/gstreamer-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=W. Michael Petullo <mike@flyn.org> \
 		Ted Hess <thess@kitschensync.net>

@@ -10,10 +10,10 @@ PKG_VERSION:=7.24.3
 PKG_VERSION_SHORT:=$(shell echo $(PKG_VERSION)| cut -f1,2 -d.)
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/BOINC/boinc
-PKG_SOURCE_VERSION:=client_release/$(PKG_VERSION_SHORT)/$(PKG_VERSION)
-PKG_MIRROR_HASH:=568a87739949e018c3a0ab0b72ba887b82bfc1b91a060f1cf1266dbfe0a5f81b
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/BOINC/boinc/tar.gz/client_release/$(PKG_VERSION_SHORT)/$(PKG_VERSION)?
+PKG_HASH:=1d8faa4de332cf6c74fcde842bc70d0477e42f8b11205de4bfe04512b6b6ff18
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Christian Dreihsig <christian.dreihsig@t-online.de>, Steffen Moeller <moeller@debian.org>
 PKG_LICENSE:=GPL-3.0-or-later

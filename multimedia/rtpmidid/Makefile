@@ -4,10 +4,11 @@ PKG_NAME:=rtpmidid
 PKG_VERSION:=23.12
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/davidmoreno/rtpmidid
-PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_MIRROR_HASH:=e787ce013fdc148c50b625a1c7d8adf99d9fee2a81d91e734af75828ed597099
+PKG_SOURCE:=$(PKG_NAME).tar.gz
+PKG_SOURCE_URL_FILE:=v$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/davidmoreno/rtpmidid/archive/refs/tags
+PKG_HASH:=c558232f375438c429fcb4edea1a5aebcb4b97581200dcc30bdd38a5b7493d81
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Daniel Golle <daniel@makrotopia.org>
 PKG_LICENSE:=GPL-3.0-or-later LGPL-2.1-or-later

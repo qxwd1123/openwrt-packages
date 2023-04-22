@@ -17,7 +17,7 @@ PKG_SOURCE:=$(PKG_NAME)$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=https://invisible-mirror.net/archives/lynx/tarballs/ \
                 https://fossies.org/linux/www/
 PKG_HASH:=7374b89936d991669e101f4e97f2c9592036e1e8cdaa7bafc259a77ab6fb07ce
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
 

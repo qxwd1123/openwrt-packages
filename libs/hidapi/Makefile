@@ -11,10 +11,10 @@ PKG_NAME:=hidapi
 PKG_VERSION:=0.14.0
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/libusb/hidapi
-PKG_SOURCE_VERSION:=hidapi-$(PKG_VERSION)
-PKG_MIRROR_HASH:=01aae0df35dd8b166378557d783b8a92ab05b725c35ee19eb7f5fa0b2ee03595
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/libusb/hidapi/tar.gz/$(PKG_NAME)-$(PKG_VERSION)?
+PKG_HASH:=a5714234abe6e1f53647dd8cba7d69f65f71c558b7896ed218864ffcf405bcbd
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Paul Fertser <fercerpav@gmail.com>
 PKG_LICENSE:=BSD-3-Clause

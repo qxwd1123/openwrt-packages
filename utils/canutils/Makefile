@@ -11,10 +11,10 @@ PKG_NAME:=canutils
 PKG_VERSION:=2023.03
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/linux-can/can-utils
-PKG_MIRROR_HASH:=bea66321c9cea53f44ace2357ca3829a77dbf5d399a09ed0798a659d682d1afa
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/linux-can/can-utils/tar.gz/v$(PKG_VERSION)?
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+PKG_HASH:=bea66321c9cea53f44ace2357ca3829a77dbf5d399a09ed0798a659d682d1afa
 
 PKG_MAINTAINER:=Anton Glukhov <anton.a.glukhov@gmail.com>
 PKG_LICENSE:=GPL-2.0-or-later

@@ -7,11 +7,11 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=iperf
+PKG_NAME:=iperf3
 PKG_VERSION:=3.17.1
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE:=$(subst 3,,$(PKG_NAME))-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://downloads.es.net/pub/iperf
 PKG_HASH:=84404ca8431b595e86c473d8f23d8bb102810001f15feaf610effd3b318788aa
 

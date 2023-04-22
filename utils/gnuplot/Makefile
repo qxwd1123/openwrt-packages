@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 PKG_MAINTAINER:=Matteo Cicuttin <datafl4sh@toxicnet.eu>
 PKG_CPE_ID:=cpe:/a:gnuplot_project:gnuplot
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/gnuplot-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=@SF/gnuplot
 PKG_HASH:=635a28f0993f6ab0d1179e072ad39b8139d07f51237f841d93c6c2ff4b1758ec

@@ -4,11 +4,10 @@ PKG_NAME:=lmdb
 PKG_VERSION:=0.9.32
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://git.openldap.org/openldap/openldap.git
-PKG_SOURCE_DATE:=2024-01-29
-PKG_SOURCE_VERSION:=LMDB_$(PKG_VERSION)
-PKG_MIRROR_HASH:=2fe139bf74e186c937eae2b1dea9094d902c16a4852378135441f4c5d837fec5
+PKG_SOURCE:=openladp-LMDB_$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://git.openldap.org/openldap/openldap/-/archive/LMDB_$(PKG_VERSION)
+PKG_HASH:=42cb6d9c65f6b06e55c7a7c513290cc1be0079dedac85d38dd4a3f99878592d0
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Jan Pavlinec <jan.pavlinec1@gmail.com>
 PKG_LICENSE:=OLDAP-2.8

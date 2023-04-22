@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/LuaLanes/lanes/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=22cfa836de4be14fe588b9cd34e936d6f61ec6f4096d8ae30d4ec35855d9608f
-PKG_BUILD_DIR:=$(BUILD_DIR)/lanes-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Vladimir Malyutin <first-leon@yandex.ru>
 PKG_LICENSE:=BSD-3-Clause

@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE_URL:=https://www.cpan.org/authors/id/L/LE/LEEJO
 PKG_SOURCE:=CGI-$(PKG_VERSION).tar.gz
 PKG_HASH:=39bd8e40ce00cdab39e0a2bc71abd2bbe451d1d97bc7e54e41a2e199eb6226e7
-PKG_BUILD_DIR:=$(BUILD_DIR)/perl/CGI-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_MAINTAINER:=Marcel Denia <naoir@gmx.net>, \
 		Philip Prindeville <philipp@redfish-solutions.com>

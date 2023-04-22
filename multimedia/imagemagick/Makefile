@@ -16,7 +16,7 @@ _PKGREV:=$(_PKGVER)-$(subst .,,$(suffix $(PKG_VERSION)))
 PKG_SOURCE:=ImageMagick-$(_PKGREV).tar.xz
 PKG_SOURCE_URL:=https://imagemagick.org/archive
 PKG_HASH:=c021effec02d18df2e55fbbe68b10b95366c1869143b08d7e8e16f471a0ddea1
-PKG_BUILD_DIR:=$(BUILD_DIR)/ImageMagick-$(_PKGREV)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 PKG_FIXUP:=autoreconf
 
 PKG_LICENSE:=Apache-2.0
